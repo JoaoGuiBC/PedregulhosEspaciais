@@ -12,8 +12,6 @@ if(keyboard_check(vk_up)) {
 
 
 if(keyboard_check_pressed(vk_space)) {
-
-	show_debug_message(shootingGun);
 	if(shootingGun == "right") {
 		var bulletInstance = instance_create_layer(x + 7, y + 7, "Instances", obj_bullet);
 		
