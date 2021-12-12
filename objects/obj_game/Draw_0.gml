@@ -19,7 +19,7 @@ CIMA: mover
 DIREITA/ESQUERDA: mudar direção
 ESPAÇO: atirar
 
->> APERTE ENTER PARA COMEÇAR <<
+APERTE ENTER PARA COMEÇAR
 "
 		);
 		

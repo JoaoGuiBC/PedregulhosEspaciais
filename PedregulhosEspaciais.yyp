@@ -10,6 +10,7 @@
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":1,},
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},"order":0,},
     {"id":{"name":"obj_debris","path":"objects/obj_debris/obj_debris.yy",},"order":3,},
+    {"id":{"name":"spr_title_detail","path":"sprites/spr_title_detail/spr_title_detail.yy",},"order":3,},
     {"id":{"name":"spr_rock_large","path":"sprites/spr_rock_large/spr_rock_large.yy",},"order":1,},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},"order":1,},
     {"id":{"name":"spr_rock_medium","path":"sprites/spr_rock_medium/spr_rock_medium.yy",},"order":2,},
