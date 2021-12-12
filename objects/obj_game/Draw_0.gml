@@ -29,8 +29,8 @@ APERTE ENTER PARA COMEÇAR
 	case rm_game:
 		draw_set_font(fnt_menu);
 	
-		draw_text(20, 20, "SCORE: " + string(score));
-		draw_text(20, 40, "LIVES: " + string(lives));
+		draw_text(20, 20, "PONTUAÇÃO: " + string(score));
+		draw_text(20, 40, "VIDAS: " + string(lives));
 		break;
 		
 	case rm_win:

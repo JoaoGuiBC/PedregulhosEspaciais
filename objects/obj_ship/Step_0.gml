@@ -2,6 +2,7 @@ if(keyboard_check(vk_left)) {
 	image_angle += 5;
 }
 
+
 if(keyboard_check(vk_right)) {
 	image_angle -= 5;
 }
@@ -23,6 +24,14 @@ if(keyboard_check_pressed(vk_space)) {
 	}
 	
 	bulletInstance.direction = image_angle;
+	
+	audio_play_sound(snd_shot, 1, false);
 }
 
 move_wrap(true, true, sprite_height/2);
+
+if (alarm[0] < 0) {
+	if(global.isShipInvincible) {
+		alarm[0] = room_speed * 2;	
+	}
+}

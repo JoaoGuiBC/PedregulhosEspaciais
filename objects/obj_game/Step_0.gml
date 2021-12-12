@@ -21,11 +21,13 @@ if(room == rm_game) {
 		room_goto(rm_win);
 		surface_resize(application_surface, 600, 400);
 		window_set_size(600, 400);
+		audio_play_sound(snd_win, 1, false);
 	}
 
 	if(lives <= 0) {
 		room_goto(rm_gameover);
 		surface_resize(application_surface, 600, 400);
 		window_set_size(600, 400);
+		audio_play_sound(snd_lose, 1, false);
 	}
 }

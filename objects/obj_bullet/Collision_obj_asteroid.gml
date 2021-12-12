@@ -1,6 +1,7 @@
 score += 10;
 
 instance_destroy();
+audio_play_sound(snd_asteroid_break, 1, false);
 
 with(other) {
 	instance_destroy();

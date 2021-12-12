@@ -1,5 +1,3 @@
-randomize();
-
 sprite_index = choose(
 	spr_rock_small,
 	spr_rock_medium,
