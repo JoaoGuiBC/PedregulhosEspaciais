@@ -1,6 +1,6 @@
 global.isShipInvincible = false
 
-score = 0;
+score = 990;
 lives = 3;
 
 randomize();
